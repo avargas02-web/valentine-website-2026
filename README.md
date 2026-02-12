@@ -45,13 +45,13 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Ashley "                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
     hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
-    bears: ['🧸', '🐻']                       // Bear emojis in background
+    bears: ['🧸', '🐻', '🕺', '😻']                       // Bear emojis in background
 }
 
 // Questions and Buttons
@@ -60,7 +60,7 @@ questions: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "I don't like you Ongo, I love you! ❤️"  // Hidden message
     },
     second: {
         text: "How much do you love me?",          // Second question
@@ -76,14 +76,14 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW You love me that much?? 🥰🚀💝😻",  // Shows above 5000%
+    high: "To infinity and beyond! 🚀💝😻",              // Shows above 1000%
+    normal: "Wow you realy love me! 🥰😻"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
+    title: "Yay! I'm the luckiest Ongo alive...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
@@ -109,7 +109,7 @@ animations: {
 music: {
     enabled: true, // Music feature is enabled
     autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    musicUrl: "https://res.cloudinary.com/dw9xakvzj/video/upload/v1770924689/Demi_Lovato_Joe_Jonas_-_Wouldn_t_Change_a_Thing_From_Camp_Rock_2_The_Final_Jam_Sing-Along_-_DisneyMusicVEVO_sha2mc.mp3", // Paste your music URL here
     startText: "🎵 Play Music", // Button text to start music
     stopText: "🔇 Stop Music", // Button text to stop music
     volume: 0.5 // Volume level (0.0 to 1.0)
